@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+
+User-agent: Yandex
+Disallow:
+
+Sitemap: https://xn--69-6kcaybvamcnho8b8l.xn--p1ai/sitemap.xml

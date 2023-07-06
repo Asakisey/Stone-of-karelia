@@ -1,0 +1,268 @@
+.text-logo{
+    padding-top: 10%;
+}
+
+.logo{
+    padding-left: 10%;
+}
+
+.container-omg{
+    background-image: url('images/Backgroound.jpg');
+    background-size: cover;
+}
+
+.bloc-content{
+    background: rgba(0, 0, 0, 0.5);   
+    background-position-x: center;
+
+}
+
+.img-background{
+    background-image: url('images/mainimg.png') ;
+    background-size: cover;
+    background-position-x: right;
+}
+
+.background {
+    justify-content: right;
+    background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0, 0.6); /* Задает цвет фона с прозрачностью */
+  }
+
+
+.inner-h{
+    flex:1;
+    text-align: center;
+}
+.inner-text{
+    text-align: right;
+    width: 400px;
+    height: 200px;
+    margin-left:60%;
+    z-index: 4;
+}
+
+.main{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;   
+    
+}
+.main-text{
+    display: flex;
+    
+}
+.zagm{
+    justify-content: center;
+}
+.main-text2{
+    width: 48%;
+    text-align:right;
+
+}
+
+.main-text1{ 
+display: flex;
+    justify-content: center;
+   margin-left: 50%;
+    margin-bottom: 10%;
+}
+.main-text0{
+    display: flex;
+    justify-content:start;
+}
+
+.textm{
+    height: 80%;
+    width: 40%;
+    
+}
+.zag{
+    color: #fff;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 40px;
+    
+    
+}
+.zags{
+  
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.block-main{
+width: 50%;
+margin-left: 40%;
+padding-right: 30%;
+margin-top: 1%;
+}
+.text{
+    color: #fff;
+   font-family:'Times New Roman', Times, serif ;
+   font-size: 35px;
+}
+
+.servis{
+    display:flex;
+    margin-bottom: 5%;
+}
+.img-servis{
+    display: flex;
+    align-items:center;
+    
+}
+.text-servis{
+ display: flex;
+
+}
+
+.texts{
+    padding-top: 1%;
+    height: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    
+}
+
+.us{
+    display: flex;
+    margin-bottom: 5%;
+    
+}
+.us-text .us-text2{
+    display: flex;
+    justify-content: center;
+    
+}
+.zagu{
+    padding-bottom: 2%;
+}
+
+.us1{
+    display: flex;
+    align-items: center;
+}
+.us-text{
+    display: flex;
+   width: 50%;
+   align-items:start;
+   height: 50%;
+   padding: 5%;
+}
+.us-text2{
+    display: flex;
+    width: 50%;
+    align-items: end;
+    height: 50%;
+    padding: 5%;
+ }   
+
+.contact-nomera1{
+    display: flex;
+    align-items:start;
+}
+.contact-emai1{
+    display: flex;
+    align-items:end;
+   
+}
+
+.contact-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+}
+.logo-contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.textc{
+    color: #fff;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 40; 
+    display: flex;
+}
+.textc2{
+    display: flex;
+   
+}
+.nav-link{
+    color: black;
+} 
+@media (max-width:1200px) {
+    .text{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 20px;
+        line-height:15px
+    }
+    .zag{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 20px;  
+    }
+    .main-text1{ 
+        display: flex;
+            justify-content: center;
+           margin-left: 50%;
+            margin-bottom: 10%;
+        }
+        .textm{
+            height: 60%;
+            width: 40%;
+            
+        }
+        .block-main{
+            width: 50%;
+            margin-left: 40%;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            padding-right: 0%;
+            }
+}
+
+@media (max-width:800px) {
+    .text{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 10px;
+        line-height:15px
+    }
+    .zag{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 20px;  
+    }
+    .main-text1{ 
+        display: flex;
+            justify-content: center;
+           margin-left: 30%;
+            margin-bottom: 10%;
+        }
+        .textm{
+            height: 80%;
+            width: 70%;
+            
+        }
+        .block-main{
+            width: 50%;
+            margin-left: 40%;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            padding-right: 0%;
+            }
+            .img-servis{
+                display: flex;
+                align-items:center;
+                
+            }
+           
+}
+@media (max-width:400px) {
+    .text-logo{
+        padding-top: 10%;
+        font-size: 20px;
+    }
+}
